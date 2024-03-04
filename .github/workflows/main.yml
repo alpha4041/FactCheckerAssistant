@@ -7,6 +7,9 @@ env:
   # The name of the Play Store
   playstore_name: Fact Checker
 
+  FACTCHECK_API_KEY: ${{secrets.FACTCHECK_API_KEY}}
+  
+
 on:
 
   push:
